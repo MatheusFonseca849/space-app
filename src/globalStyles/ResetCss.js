@@ -33,12 +33,11 @@ p {
     text-align: unset;
 }
 
-main{
+body{
     
     background: linear-gradient(174.61deg,#041833 4.16%,#04244f 48%,#154580 96.76%);
     height: 100vh;
     width: 100vw;
-    padding: 0 32px;
 
 }
 

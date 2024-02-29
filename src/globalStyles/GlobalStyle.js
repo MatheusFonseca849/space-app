@@ -12,6 +12,8 @@ const GlobalStyle = createGlobalStyle`
     --radius-default: 4px;
     --radius-button: 8px;
 
+    --gap-nav-list: 16px;
+
 }
 
 `
