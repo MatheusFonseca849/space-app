@@ -14,5 +14,3 @@ padding: 32px;
     }
 
 `
-
-export default StyledAside
