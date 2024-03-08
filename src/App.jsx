@@ -1,5 +1,4 @@
 import AsideNavigation from "./components/AsideNavigation"
-import Banner from "./components/Banner"
 import Header from "./components/Header"
 import MainSection from "./components/MainSection"
 import GlobalStyle from "./globalStyles/GlobalStyle"
@@ -15,7 +14,7 @@ function App() {
       <Header/>
     <main>
       <AsideNavigation/>
-        <MainSection/>
+      <MainSection/>
           
     </main>
     </>
