@@ -1,6 +1,7 @@
 import AsideNavigation from "./components/AsideNavigation"
 import Banner from "./components/Banner"
 import Header from "./components/Header"
+import MainSection from "./components/MainSection"
 import GlobalStyle from "./globalStyles/GlobalStyle"
 import ResetCss from "./globalStyles/ResetCss"
 
@@ -14,10 +15,8 @@ function App() {
       <Header/>
     <main>
       <AsideNavigation/>
-        <section>
-          <Banner><h1>A galeria mais completa de fotos do espaço!</h1></Banner>
+        <MainSection/>
           
-        </section>
     </main>
     </>
   )
