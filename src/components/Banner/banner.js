@@ -4,7 +4,7 @@ const StyledBanner = styled.div`
 
     background: url("./src/assets/banner.png");
     background-size: cover;
-    width: 95%;
+    width: 90%;
     height: 364px;
     display: flex;
     justify-content: flex-start;
