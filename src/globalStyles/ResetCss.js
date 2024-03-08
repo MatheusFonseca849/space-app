@@ -43,24 +43,27 @@ p {
     outline: 0;
     border: none;
     text-align: unset;
-    font-family: GandhiSansRegular;
+    font-family: 'GandhiSansRegular';
 }
 
 body{
     
     background: linear-gradient(174.61deg,#041833 4.16%,#04244f 48%,#154580 96.76%);
     height: 100vh;
-    width: 100vw;
+    /* width: 1440px; */
+    max-width: 100%;
+    margin: 0 auto;
 
 }
 
 main{
 
     display: flex;
-
+    
     section{
-
-        width: 100vw;
+        
+        width: calc(100vw - var(--width-nav-bar));
+        /* width: 100vw; */
         height: calc(100vh - 100.67px); /* 100.67px is the exact height of the header. A better approach would be preferable */
 
     }

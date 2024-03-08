@@ -14,7 +14,7 @@ function App() {
       <Header/>
     <main>
       <AsideNavigation/>
-        <section id="mainContent">
+        <section>
           <Banner><h1>A galeria mais completa de fotos do espaço!</h1></Banner>
           
         </section>

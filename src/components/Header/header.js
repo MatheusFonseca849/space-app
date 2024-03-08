@@ -5,7 +5,8 @@ const StyledHeader = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    height: var(--height-header);
+    padding: 0 32px;
 
     img{
 
