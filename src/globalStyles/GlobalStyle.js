@@ -4,15 +4,28 @@ const GlobalStyle = createGlobalStyle`
 
 :root{
 
+    --color-icon-active: #7B78E5;
     --color-fixed-white: #fff;
     --color-grey-900: #D9D9D9;
 
-    --margin-default: 8px;
+    --font-size-0: 2.5rem; /* 40px */
+    --font-size-1: 2rem; /* 32px */
+    --font-size-2: 1.5rem; /* 24px */
+    --font-size-3: 1.125rem; /* 18px */
+    --font-size-4: 1rem; /* 16px */
+
+    --margin-default: 0.5rem;
+
+    --padding-nav-item: 0 8px;
 
     --radius-default: 4px;
     --radius-button: 8px;
 
-    --gap-nav-list: 16px;
+    --gap-nav-list: 1rem;
+    --gap-nav-item: 1rem;
+
+    --width-nav-item-img: 28px;
+    --height-nav-item-img: 28px;
 
 }
 

@@ -1,13 +1,13 @@
-
+import StyledNavItem from "./navigationItem.js";
 
 const NavigationItem = ({ children, activeImg, inactiveImg, altText, active = false }) => {
-console.log(active)
+
     return (
 
-        <li>
-            <img src={active ? activeImg : inactiveImg} alt={altText} />
+        <StyledNavItem $active={active} onClick={(active) => !active}>
+            <img src={active ? activeImg : inactiveImg} alt={altText}/>
             {children}
-        </li>
+        </StyledNavItem>
 
     )
 

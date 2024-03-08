@@ -29,6 +29,7 @@ return(
             activeImg="./public/icons/mais-curtidas-ativo.png" 
             inactiveImg="./public/icons/mais-curtidas-inativo.png"
             altText="Ícone branco mostrando uma mão com o polegar levantado"
+        
             >
                     Mais Curtidas
             </NavigationItem>
@@ -37,6 +38,7 @@ return(
             activeImg="./public/icons/novas-ativo.png" 
             inactiveImg="./public/icons/novas-inativo.png"
             altText="Ícone branco mostrando um ponto com traços ao seu redor apontando para ele, formando o desenho de uma estrela" 
+        
             >
                     Novas
             </NavigationItem>
@@ -45,6 +47,7 @@ return(
             activeImg="./public/icons/surpreenda-me-ativo.png" 
             inactiveImg="./public/icons/surpreenda-me-inativo.png"
             altText="Ícone branco mostrando uma lâmpada"
+        
             >
                 Surpreenda-me
             </NavigationItem>

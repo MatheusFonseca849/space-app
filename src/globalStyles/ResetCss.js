@@ -1,6 +1,18 @@
 import { createGlobalStyle } from "styled-components";
+import  GandhiSansRegular  from "./fonts/GandhiSans-Regular.otf";
+import  GandhiSansBold  from "./fonts/GandhiSans-Bold.otf";
 
 const ResetCss = createGlobalStyle`
+
+@font-face {
+    font-family: 'GandhiSansRegular';
+    src: local('Gandhi Sans Regular'), local('GandhiSansRegular'), url(${GandhiSansRegular});
+}
+
+@font-face {
+    font-family: 'GandhiSansBold';
+    src: local('Gandhi Sans Bold'), local('GandhiSansBold'), url(${GandhiSansBold});
+}
 
 html,
 body,
@@ -31,6 +43,7 @@ p {
     outline: 0;
     border: none;
     text-align: unset;
+    font-family: GandhiSansRegular;
 }
 
 body{
@@ -38,6 +51,19 @@ body{
     background: linear-gradient(174.61deg,#041833 4.16%,#04244f 48%,#154580 96.76%);
     height: 100vh;
     width: 100vw;
+
+}
+
+main{
+
+    display: flex;
+
+    section{
+
+        width: 100vw;
+        height: calc(100vh - 100.67px); /* 100.67px is the exact height of the header. A better approach would be preferable */
+
+    }
 
 }
 
